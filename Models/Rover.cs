@@ -18,9 +18,6 @@ namespace RobotRover.Models
         public Rover(Plateau plateau)
         {
             this.plateau = plateau;
-
-            // Set default position of the rover at the origin, facing North
-            //SetPosition(0, 0, "N");
         }
 
         public void SetPosition(int x, int y, string direction)
